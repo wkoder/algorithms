@@ -1,0 +1,19 @@
+INDEX VERSION 1.126+/home/wk/programming/algorithms/.metadata/.plugins/org.eclipse.jdt.core
+2151297631.index
+4088500341.index
+3985175086.index
+1244466691.index
+117392341.index
+2989739826.index
+2405139114.index
+1695884755.index
+2763407195.index
+1901095026.index
+781295592.index
+3839868841.index
+3913772002.index
+2185613469.index
+3705355065.index
+2578302097.index
+82527462.index
+3327807147.index

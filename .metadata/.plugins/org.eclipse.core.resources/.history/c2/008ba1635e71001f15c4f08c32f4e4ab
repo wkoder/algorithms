@@ -1,0 +1,33 @@
+import java.io.*;
+import java.util.*;
+import java.math.*;
+import java.text.*;
+
+public class B {
+	
+	static final int INF = 1 << 28, MAX = 1000;
+	static final double EPS = 1E-9;
+	
+	static void solve() {
+		Scanner scan = new Scanner(System.in);
+		int T = scan.nextInt();
+		for (int t = 1; t <= T; t++) {
+			int x1 = scan.nextInt();
+			int y1 = scan.nextInt();
+			int x2 = scan.nextInt();
+			int y2 = scan.nextInt();
+			double P = scan.nextDouble();
+			double Q = scan.nextDouble();
+			double R = scan.nextDouble();
+			
+			double min = Double.MAX_VALUE;
+			min = Math.min(min, Math.abs(x1-x2) + Math.abs(y1-y2));
+			
+			double
+		}
+	}
+	
+	public static void main(String[] args) throws IOException {
+		solve();
+	}
+}

@@ -1,0 +1,6 @@
+
+public class TrappingRabbit {
+	public int findMinimumTime(int[] trapX, int[] trapY) {
+		
+	}
+}

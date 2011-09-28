@@ -1,0 +1,18 @@
+import java.util.Arrays;
+
+public class NameInput {
+	public int countUpDownKeyPresses(String[] predictionSequence, String[] name) {
+		String seq = "";
+		for (String s : predictionSequence)
+			seq += s;
+		String n = "";
+		for (String s : name)
+			n += s;
+		char[] s = seq.toCharArray();
+		
+		int INF = 1 << 28;
+		
+	}
+	
+	private class 
+}

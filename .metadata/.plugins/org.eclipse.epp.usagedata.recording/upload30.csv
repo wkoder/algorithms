@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+started,bundle,org.eclipse.wst.common.project.facet.core,1.4.1.v200908111817,"org.eclipse.wst.common.project.facet.core",1267545796543
+started,bundle,org.eclipse.wst.web,1.1.301.v200909021400,"org.eclipse.wst.web",1267545796543
+started,bundle,org.eclipse.wst.ws.service.policy.ui,1.0.102.v200903070248,"org.eclipse.wst.ws.service.policy.ui",1267545796545
+started,bundle,org.eclipse.dltk.core,1.0.1.v20090910-1601,"org.eclipse.dltk.core",1267545796591
+started,bundle,org.eclipse.dltk.launching,1.0.1.v20090910-1601,"org.eclipse.dltk.launching",1267545796598
+started,bundle,org.eclipse.dltk.ui,1.0.1.v20090903-2153,"org.eclipse.dltk.ui",1267545796617
+started,bundle,org.eclipse.php.debug.daemon,2.1.1.v20090707-1108,"org.eclipse.php.debug.daemon",1267545796618
+started,bundle,com.google.appengine.eclipse.core,1.2.0.v200912062003,"com.google.appengine.eclipse.core",1267545796618
+started,bundle,com.google.gdt.eclipse.core,1.2.0.v200912062003,"com.google.gdt.eclipse.core",1267545796619
+started,bundle,com.google.gdt.eclipse.platform.shared,1.2.0.v200912062003,"com.google.gdt.eclipse.platform.shared",1267545796619
+started,bundle,com.google.gdt.eclipse.suite,1.2.0.v200912062003,"com.google.gdt.eclipse.suite",1267545796640
+started,bundle,com.google.gwt.eclipse.core,1.2.0.v200912062003,"com.google.gwt.eclipse.core",1267545796652
+os,sysinfo,,,"linux",1267545796655
+arch,sysinfo,,,"x86",1267545796655
+ws,sysinfo,,,"gtk",1267545796655
+locale,sysinfo,,,"en_US",1267545796655
+processors,sysinfo,,,"2",1267545796656
+java.runtime.name,sysinfo,,,"OpenJDK Runtime Environment",1267545796656
+java.runtime.version,sysinfo,,,"1.6.0_0-b16",1267545796656
+java.specification.name,sysinfo,,,"Java Platform API Specification",1267545796656
+java.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1267545796656
+java.specification.version,sysinfo,,,"1.6",1267545796656
+java.vendor,sysinfo,,,"Sun Microsystems Inc.",1267545796656
+java.version,sysinfo,,,"1.6.0_0",1267545796656
+java.vm.info,sysinfo,,,"mixed mode",1267545796656

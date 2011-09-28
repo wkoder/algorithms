@@ -1,0 +1,43 @@
+import java.io.*;
+import java.util.*;
+import java.math.*;
+import java.text.*;
+
+public class EmbassyQueue {
+	
+	static void solve() {
+		int[] win = new int[3];
+		int[] time = new int[3];
+		StringTokenizer tok = new StringTokenizer(read());
+		for (int i = 0; i < win.length; i++)
+			win[i] = Integer.parseInt(tok.nextToken());
+		tok = new StringTokenizer(read());
+		for (int i = 0; i < time.length; i++)
+			time[i] = Integer.parseInt(tok.nextToken());
+		int N = Integer.parseInt(read());
+		tok = new StringTokenizer(read());
+		
+		while (N-- > 0) {
+			int c = Integer.parseInt(tok.nextToken());
+			
+		}
+	}
+	
+	static String read() {
+		try { return in.readLine(); } catch (IOException e) { return null; }
+	}
+	public static void main(String[] args) throws IOException {
+		in = new BufferedReader(new InputStreamReader(System.in));
+		out = new PrintWriter(new BufferedOutputStream(System.out));
+		solve(); out.flush();
+	}
+	static BufferedReader in; static PrintWriter out;
+	
+	static class P {
+		int got, time;
+		public P(int ggot, int ttime) {
+			got = ggot;
+			time = ttime;
+		}
+	}
+}

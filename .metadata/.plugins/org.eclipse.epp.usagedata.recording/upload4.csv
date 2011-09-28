@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+locale,sysinfo,,,"en_US",1267506678718
+processors,sysinfo,,,"2",1267506678719
+java.runtime.name,sysinfo,,,"OpenJDK Runtime Environment",1267506678719
+java.runtime.version,sysinfo,,,"1.6.0_0-b16",1267506678719
+java.specification.name,sysinfo,,,"Java Platform API Specification",1267506678719
+java.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1267506678719
+java.specification.version,sysinfo,,,"1.6",1267506678719
+java.vendor,sysinfo,,,"Sun Microsystems Inc.",1267506678719
+java.version,sysinfo,,,"1.6.0_0",1267506678719
+java.vm.info,sysinfo,,,"mixed mode",1267506678719
+java.vm.name,sysinfo,,,"OpenJDK Client VM",1267506678719
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1267506678719
+java.vm.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1267506678719
+java.vm.specification.version,sysinfo,,,"1.0",1267506678719
+java.vm.vendor,sysinfo,,,"Sun Microsystems Inc.",1267506678723
+java.vm.version,sysinfo,,,"14.0-b16",1267506678723
+started,bundle,org.eclipse.mylyn.tasks.ui,3.3.1.v20091215-0000-e3x,"org.eclipse.mylyn.tasks.ui",1267506678877
+started,bundle,org.eclipse.mylyn.team.ui,3.3.1.v20091215-0000-e3x,"org.eclipse.mylyn.team.ui",1267506678944
+started,bundle,org.eclipse.php.debug.ui,2.1.1.v20090714-1338,"org.eclipse.php.debug.ui",1267506678968
+started,bundle,org.eclipse.wst.sse.ui,1.1.101.v200908261807,"org.eclipse.wst.sse.ui",1267506679021
+started,bundle,org.eclipse.wst.sse.core,1.1.401.v200909172215,"org.eclipse.wst.sse.core",1267506679038
+started,bundle,org.eclipse.php.ui,2.1.1.v20090914-1400,"org.eclipse.php.ui",1267506679065
+started,bundle,org.tigris.subversion.subclipse.mylyn,3.0.0,"org.tigris.subversion.subclipse.mylyn",1267506679108
+started,bundle,org.tigris.subversion.clientadapter,1.6.4.1,"org.tigris.subversion.clientadapter",1267506679128
+started,bundle,org.tigris.subversion.subclipse.core,1.6.5,"org.tigris.subversion.subclipse.core",1267506679174

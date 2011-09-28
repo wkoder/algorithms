@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;set&apos; in &apos;Nisoku.theMax(...)&apos; to &apos;s&apos;&#x0A;- Original project: &apos;current&apos;&#x0A;- Original element: &apos;Nisoku.theMax(double[]).set&apos;&#x0A;- Renamed element: &apos;set&apos;&#x0A;- Update references to refactored element" description="Rename local variable &apos;set&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;{Nisoku.java[Nisoku~theMax~\[D@set!143!185!156!158!QList\&lt;QDouble;&gt;;" name="s" references="true" stamp="1267771315045" version="1.0"/>
+</session>

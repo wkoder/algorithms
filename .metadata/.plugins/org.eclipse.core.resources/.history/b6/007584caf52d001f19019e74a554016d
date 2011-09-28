@@ -1,0 +1,9 @@
+
+public class NameInput {
+	public int countUpDownKeyPresses(String[] predictionSequence, String[] name) {
+		String seq = "";
+		for (String s : predictionSequence)
+			seq += s;
+		
+	}
+}

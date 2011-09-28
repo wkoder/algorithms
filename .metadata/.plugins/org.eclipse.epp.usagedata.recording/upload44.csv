@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+started,bundle,com.google.appengine.eclipse.core,1.2.0.v200912062003,"com.google.appengine.eclipse.core",1267768557348
+started,bundle,com.google.gdt.eclipse.core,1.2.0.v200912062003,"com.google.gdt.eclipse.core",1267768557348
+started,bundle,com.google.gdt.eclipse.platform.shared,1.2.0.v200912062003,"com.google.gdt.eclipse.platform.shared",1267768557348
+started,bundle,com.google.gdt.eclipse.suite,1.2.0.v200912062003,"com.google.gdt.eclipse.suite",1267768557356
+started,bundle,com.google.gwt.eclipse.core,1.2.0.v200912062003,"com.google.gwt.eclipse.core",1267768557369
+os,sysinfo,,,"linux",1267768557372
+arch,sysinfo,,,"x86",1267768557372
+ws,sysinfo,,,"gtk",1267768557372
+locale,sysinfo,,,"en_US",1267768557372
+processors,sysinfo,,,"2",1267768557372
+java.runtime.name,sysinfo,,,"OpenJDK Runtime Environment",1267768557372
+java.runtime.version,sysinfo,,,"1.6.0_0-b16",1267768557372
+java.specification.name,sysinfo,,,"Java Platform API Specification",1267768557372
+java.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1267768557372
+java.specification.version,sysinfo,,,"1.6",1267768557372
+java.vendor,sysinfo,,,"Sun Microsystems Inc.",1267768557372
+java.version,sysinfo,,,"1.6.0_0",1267768557372
+java.vm.info,sysinfo,,,"mixed mode",1267768557372
+java.vm.name,sysinfo,,,"OpenJDK Client VM",1267768557372
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1267768557372
+java.vm.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1267768557372
+java.vm.specification.version,sysinfo,,,"1.0",1267768557372
+java.vm.vendor,sysinfo,,,"Sun Microsystems Inc.",1267768557372
+java.vm.version,sysinfo,,,"14.0-b16",1267768557372
+started,bundle,org.eclipse.jst.common.project.facet.core,1.4.1.v200908111817,"org.eclipse.jst.common.project.facet.core",1267768557571

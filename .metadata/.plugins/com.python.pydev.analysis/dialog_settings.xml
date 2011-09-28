@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="com.python.pydev.analysis.ORGANIZE_IMPORTS_DIALOG">
+		<item value="300" key="DIALOG_WIDTH"/>
+		<item value="239" key="DIALOG_Y_ORIGIN"/>
+		<item value="300" key="DIALOG_HEIGHT"/>
+		<item value="574" key="DIALOG_X_ORIGIN"/>
+		<item value="1|Sans|9.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
+	</section>
+</section>

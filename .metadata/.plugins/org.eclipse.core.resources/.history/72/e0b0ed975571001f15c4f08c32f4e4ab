@@ -1,0 +1,55 @@
+import java.io.*;
+import java.util.*;
+import java.math.*;
+import java.text.*;
+
+public class L {
+	
+	static final int INF = 1 << 28, MAX = 1000;
+	static final double EPS = 1E-9;
+	
+	static long chooseDP(int n, int k) {
+		long[][] choose = new long[n + 1][k + 1];
+		int i, j;
+		for (i = 0; i <= n; i++)
+			choose[i][0] = choose[i][i] = 1;
+		for (i = 1; i <= n; i++)
+			for (j = 1; j < i; j++)
+				choose[i][j] = choose[i - 1][j - 1] + choose[i - 1][j];
+		return choose[n][k];
+	}
+	
+	static long chooseLucas(long n, long k, long m) {
+		if (n < k || k < 0)
+			return 0;
+		if (n == k)
+			return 1;
+		long ans = (choose(n%m, k%m, m) * chooseLucas(n/m, k/m, m)) % m;
+		return ans;
+	}
+	
+	static void solve() {
+		Scanner scan = new Scanner(in);
+		int T = scan.nextInt();
+		for (int t = 1; t <= T; t++) {
+			int N = scan.nextInt();
+			int M = scan.nextInt();
+			int K = scan.nextInt();
+			int P = scan.nextInt();
+			
+		}
+	}
+	
+	static String read() {
+		try { return in.readLine(); } catch (IOException e) { return null; }
+	}
+	public static void main(String[] args) throws IOException {
+		in = new BufferedReader(new InputStreamReader(System.in));
+		out = new PrintWriter(new BufferedOutputStream(System.out));
+//		String file = "A-small";
+//		in = new BufferedReader( new FileReader(file + ".in") );
+//		out = new PrintWriter( new FileOutputStream(file + "_" + System.currentTimeMillis() + ".out") );
+		solve(); out.flush();
+	}
+	static BufferedReader in; static PrintWriter out;
+}

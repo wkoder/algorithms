@@ -1,0 +1,6 @@
+
+public class ColoringRectangle {
+	public int chooseDisks(int width, int height, int[] red, int[] blue) {
+		
+	}
+}

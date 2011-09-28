@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;FacebookHackerCup/input (1).txt&apos; to &apos;5.in&apos;" description="Rename resource &apos;input (1).txt&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="input (1).txt" name="5.in" stamp="1295070916188" updateReferences="true"/>
+</session>

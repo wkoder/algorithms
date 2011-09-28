@@ -1,0 +1,9 @@
+
+public class TrappingRabbit {
+	public int findMinimumTime(int[] trapX, int[] trapY) {
+		int time = 0;
+		for (int i = 0; i < trapX.length; i++)
+			time = Math.min(time, trapX[i]}trapY[i]);
+		return time;
+	}
+}
