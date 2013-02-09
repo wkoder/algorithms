@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: sbrandhof
+Build-Jdk: 1.6.0_24
+Plugin-Class: org.sonar.plugins.design.DesignPlugin
+Plugin-OrganizationUrl: http://www.sonarsource.com
+Plugin-IssueTrackerUrl: http://jira.codehaus.org/browse/SONAR
+Plugin-Organization: SonarSource
+Plugin-Name: Design
+Plugin-Version: 2.8
+Plugin-BuildDate: 2011-05-18T21:15:36+0200
+Plugin-Description: Analyze Java bytecode to compute O.O. metrics and 
+ extract dependencies between resources.
+Plugin-Key: design
+Plugin-License: GNU LGPL 3
+Plugin-Homepage: http://www.sonarsource.org/plugins/sonar-design-plugin
+Plugin-TermsConditionsUrl: 
+Sonar-Version: 2.8
+

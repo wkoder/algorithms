@@ -1,0 +1,40 @@
+public class EllysFractions {
+	long[][] choose;
+	
+	public long getCount(int N) {
+		long count = 0;
+		int primes = 0;
+		nChooseKDP(N, N);
+		for (int i = 2; i <= N; i++) {
+			primes++;
+			for (int j = 2; j*j <= i; j++)
+				if (i % j == 0) {
+					primes--;
+					break;
+				}
+			
+			for (int k = 1; k < primes; k++)
+				count += choose[N][k];
+		}
+		
+		return count / 2;
+	}
+	
+	void nChooseKDP(int n, int k) {
+		choose = new long[n + 1][k + 1];
+		int i, j;
+		for (i = 0; i <= n; i++)
+			choose[i][0] = choose[i][i] = 1;
+		for (i = 1; i <= n; i++)
+			for (j = 1; j < i; j++)
+				choose[i][j] = choose[i - 1][j - 1] + choose[i - 1][j];
+	}
+	
+	public static void main(String[] args) {
+		EllysFractions f = new EllysFractions();
+		System.out.println(f.getCount(2));
+		System.out.println(f.getCount(3));
+		System.out.println(f.getCount(5));
+		System.out.println(f.getCount(100));
+	}
+}

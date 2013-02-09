@@ -9,7 +9,7 @@ class SegmentTree {
 	 */
 	SegmentTree(int size) {
 		N = 1;
-		while (N < size)
+		while (N <= size)
 			N <<= 1;
 		t = new int[2 * N - 1];
 	}

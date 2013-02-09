@@ -1,0 +1,8 @@
+package year2013.round1;
+
+public class Snippet {
+	public static void main(String[] args) {
+		choose[i - 1][j - 1] + choose[i - 1][j]
+	}
+}
+

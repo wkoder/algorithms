@@ -1,0 +1,6 @@
+
+public class EllysFractions {
+	public long getCount(int N) {
+		
+	}
+}

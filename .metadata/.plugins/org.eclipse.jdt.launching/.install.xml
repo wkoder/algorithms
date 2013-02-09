@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <dirs>
 <entry loc="/home/wk/apps/jdk1.6.0_18" stamp="1266538052000"/>
-<entry loc="/usr/lib/jvm/java-1.5.0-gcj-1.5.0.0" stamp="1294936924000"/>
+<entry loc="/usr/lib/jvm/java-6-openjdk" stamp="1342248561000"/>
+<entry loc="/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.9.x86_64" stamp="1358205973000"/>
+<entry loc="/home/wk/apps/jdk1.6.0_27" stamp="1315955529000"/>
 </dirs>

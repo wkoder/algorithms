@@ -1,0 +1,6 @@
+
+public class EllysLights {
+	public int getMinimum(String initial, String[] switches) {
+		
+	}
+}

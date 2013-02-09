@@ -1,0 +1,57 @@
+package year2013.round1;
+import java.io.*;
+import java.util.*;
+import java.math.*;
+import java.text.*;
+
+public class CardGame {
+	
+	static final int INF = 1 << 28;
+	static final double EPS = 1E-9;
+	
+	static final int MAX = 10001;
+	static final long MOD = 1000000007;
+	static long[] a = new long[MAX];
+	
+	private static void hack() {
+		long[][] choose = new long[n + 1][k + 1];
+		int i, j;
+		for (i = 0; i <= MAX; i++)
+			choose[i][0] = choose[i][i] = 1;
+		for (i = 1; i <= MAX; i++)
+			for (j = 1; j < i; j++)
+				choose[i][j] = choose[i - 1][j - 1] + choose[i - 1][j];
+		
+		Scanner scan = new Scanner(in);
+		int T = scan.nextInt();
+		for (int t = 1; t <= T; t++) {
+			out.print("Case #" + t + ": ");
+			int N = scan.nextInt();
+			int K = scan.nextInt();
+			for (int i = 0; i < N; i++)
+				a[i] = scan.nextLong();
+			
+			long sum = 0;
+			Arrays.sort(a, 0, N);
+			for (int n = N-1; n >= K-1; n--) {
+				long c = nChooseK(n, K-1);
+				sum = (sum + c*a[n]) % MOD;
+			}
+			
+			out.println(sum);
+		}
+	}
+	
+	static String read() {
+		try { return in.readLine(); } catch (IOException e) { return null; }
+	}
+	public static void main(String[] args) throws IOException {
+//		in = new BufferedReader(new InputStreamReader(System.in));
+//		out = new PrintWriter(new BufferedOutputStream(System.out));
+		String file = "card_game";
+		in = new BufferedReader( new FileReader(file + ".txt") );
+		out = new PrintWriter( new FileOutputStream(file + "_" + System.currentTimeMillis() + ".out") );
+		hack(); out.flush();
+	}
+	static BufferedReader in; static PrintWriter out;
+}

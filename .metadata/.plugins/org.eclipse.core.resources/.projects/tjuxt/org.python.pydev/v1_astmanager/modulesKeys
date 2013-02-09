@@ -1,0 +1,8 @@
+MODULES_MANAGER_V2
+__init__|/home/wk/programming/algorithms/tjuxt/src/__init__.py
+parsers|/home/wk/programming/algorithms/tjuxt/src/parsers.py
+persistence|/home/wk/programming/algorithms/tjuxt/src/persistence.py
+problem|/home/wk/programming/algorithms/tjuxt/src/problem.py
+problem_status|/home/wk/programming/algorithms/tjuxt/src/problem_status.py
+run|/home/wk/programming/algorithms/tjuxt/src/run.py
+user|/home/wk/programming/algorithms/tjuxt/src/user.py

@@ -5,11 +5,11 @@ import java.text.*;
 
 public class Template {
 	
-	static void solve() {
+	public static void solve() {
 		
 	}
 	
-	static String read() {
+	public static String read() {
 		try { return in.readLine(); } catch (IOException e) { return null; }
 	}
 	public static void main(String[] args) throws IOException {

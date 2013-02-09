@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <typeInfoHistroy>
+<typeInfo handle="=lib_geom/src&lt;{Circle.java[Circle" modifiers="1" timestamp="1259907452000"/>
+<typeInfo handle="=lib_geom/src&lt;{Point.java[Point" modifiers="1" timestamp="1259907452000"/>
+<typeInfo handle="=lib/src&lt;{GraphLib.java[GraphLib" modifiers="1" timestamp="1259907452000"/>
 <typeInfo handle="=lib/src&lt;{MathLib.java[MathLib" modifiers="1" timestamp="1259907454000"/>
-<typeInfo handle="=lib_geom/src&lt;{Circle.java[Circle" modifiers="1" timestamp="1259907453000"/>
-<typeInfo handle="=lib_geom/src&lt;{Point.java[Point" modifiers="1" timestamp="1259907453000"/>
 </typeInfoHistroy>

@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: sbrandhof
+Build-Jdk: 1.6.0_24
+Plugin-Class: org.sonar.plugins.pmd.PmdPlugin
+Plugin-OrganizationUrl: http://www.sonarsource.com
+Plugin-IssueTrackerUrl: http://jira.codehaus.org/browse/SONAR
+Plugin-Organization: SonarSource
+Plugin-Dependencies: META-INF/lib/pmd-4.2.5.jar META-INF/lib/jdom-1.0.
+ jar META-INF/lib/icu4j-3.4.4.jar META-INF/lib/xmlParserAPIs-2.6.2.jar
+  META-INF/lib/xml-apis-1.3.03.jar META-INF/lib/jaxen-1.1.1.jar META-I
+ NF/lib/asm-3.1.jar META-INF/lib/serializer-2.7.1.jar META-INF/lib/xom
+ -1.0.jar
+Plugin-Name: PMD
+Plugin-Version: 2.8
+Plugin-BuildDate: 2011-05-18T21:20:07+0200
+Plugin-Description: Analyze Java code with <a href="http://pmd.sourcef
+ orge.net/">PMD</a> 4.2.5.
+Plugin-Key: pmd
+Plugin-License: GNU LGPL 3
+Plugin-Homepage: http://www.sonarsource.org/plugins/sonar-pmd-plugin
+Plugin-TermsConditionsUrl: 
+Sonar-Version: 2.8
+

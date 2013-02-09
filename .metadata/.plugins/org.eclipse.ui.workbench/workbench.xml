@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="27" version="2.0">
+<workbench progressCount="42" version="2.0">
 <workbenchAdvisor/>
-<window height="747" maximized="true" width="1008" x="89" y="149">
+<window height="747" maximized="true" width="1002" x="0" y="0">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="179"/>
 </perspectiveBar>
-<coolbarLayout locked="0">
+<coolbarLayout>
 <coolItem id="group.file" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="132" y="30"/>
-<coolItem id="com.google.gdt.eclipse.suite.GDTPulldownToolbar" itemType="typeToolBarContribution" x="132" y="30"/>
+<coolItem id="com.google.gdt.eclipse.suite.GDTPulldownToolbar" itemType="typeToolBarContribution" x="48" y="30"/>
 <coolItem id="additions" itemType="typeGroupMarker"/>
 <coolItem id="com.google.gdt.eclipse.suite.actionSet" itemType="typeToolBarContribution" x="124" y="30"/>
 <coolItem id="com.python.pydev.navigate.actionSet" itemType="typeToolBarContribution" x="40" y="30"/>
@@ -17,15 +17,17 @@
 <coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="104" y="30"/>
-<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="104" y="30"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="132" y="30"/>
 <coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="152" y="30"/>
 <coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="com.aptana.ui.globalActionSet" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.python.pydev.editor.PythonEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="184" y="30"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.compare.CompareEditor" itemType="typePlaceholder" x="96" y="30"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
@@ -37,26 +39,24 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 <part id="1"/>
-<part id="2"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="B_SpaceEmergency.java" partName="B_SpaceEmergency.java" path="/home/wk/programming/algorithms/GoogleCodeJam2011/src/B_SpaceEmergency.java" title="B_SpaceEmergency.java" tooltip="GoogleCodeJam2011/src/B_SpaceEmergency.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/GoogleCodeJam2011/src/B_SpaceEmergency.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2158" selectionTopPixel="56"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="B_Aerobics.java" partName="B_Aerobics.java" path="/home/wk/programming/algorithms/GoogleCodeJam/src/B_Aerobics.java" title="B_Aerobics.java" tooltip="GoogleCodeJam/src/B_Aerobics.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/GoogleCodeJam/src/B_Aerobics.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1783" selectionTopPixel="0"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="C_PerfectHarmony.java" partName="C_PerfectHarmony.java" path="/home/wk/programming/algorithms/GoogleCodeJam2011/src/C_PerfectHarmony.java" title="C_PerfectHarmony.java" tooltip="GoogleCodeJam2011/src/C_PerfectHarmony.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/GoogleCodeJam2011/src/C_PerfectHarmony.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1648" selectionTopPixel="1179"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Test.java" partName="Test.java" path="/home/wk/programming/algorithms/GoogleCodeJam2011/src/Test.java" title="Test.java" tooltip="GoogleCodeJam2011/src/Test.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/GoogleCodeJam2011/src/Test.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="606" selectionTopPixel="239"/>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="C_MountainView.java" partName="C_MountainView.java" path="/home/wk/programming/algorithms/GoogleCodeJam/src/C_MountainView.java" title="C_MountainView.java" tooltip="GoogleCodeJam/src/C_MountainView.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/GoogleCodeJam/src/C_MountainView.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1852" selectionTopPixel="57"/>
 </editor>
 </editors>
 <views>
 <view id="org.eclipse.jdt.ui.TypeHierarchy" partName="Hierarchy"/>
+<view id="org.eclipse.ui.views.ProgressView" partName="Progress">
+<viewState/>
+</view>
 <view id="org.eclipse.ui.views.ResourceNavigator" partName="Navigator">
 <viewState LINK_NAVIGATOR_TO_EDITOR="0" sorter="1">
 <filters>&#x0A;<filter element="*.class" isEnabled="false"/>
@@ -90,7 +90,6 @@
 <child filterId="org.eclipse.pde.ui.ExternalPluginLibrariesFilter1" isEnabled="true"/>
 <child filterId="org.eclipse.jdt.ui.PackageExplorer_patternFilterId_RemoteSystemsConnections" isEnabled="true"/>
 <child filterId="org.eclipse.jdt.ui.PackageExplorer.FieldsFilter" isEnabled="false"/>
-<child filterId="jdt.external.source.project.filter" isEnabled="true"/>
 <child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.HideInnerClassFilesFilter" isEnabled="true"/>
 <child filterId="org.eclipse.jdt.ui.PackageExplorer.NonPublicFilter" isEnabled="false"/>
 <child filterId="org.eclipse.pde.ui.BinaryProjectFilter1" isEnabled="false"/>
@@ -105,12 +104,13 @@
 <child filterId="org.eclipse.jdt.ui.PackageExplorer.PackageDeclarationFilter" isEnabled="true"/>
 <child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.EmptyInnerPackageFilter" isEnabled="true"/>
 <child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.EmptyPackageFilter" isEnabled="false"/>
-<child filterId="com.google.gdt.eclipse.managedapis.ui.ManagedApiContainerFilter" isEnabled="true"/>
 <child filterId="org.eclipse.jdt.ui.PackageExplorer.ImportDeclarationFilter" isEnabled="true"/>
+<child filterId="com.google.gdt.eclipse.managedapis.ui.ManagedApiContainerFilter" isEnabled="true"/>
 <child filterId="org.eclipse.jdt.ui.PackageExplorer_patternFilterId_.*" isEnabled="true"/>
 <child filterId="org.eclipse.jdt.ui.PackageExplorer.EmptyLibraryContainerFilter" isEnabled="true"/>
 <child filterId="org.eclipse.jdt.ui.PackageExplorer_patternFilterId_RemoteSystemsTempFiles" isEnabled="true"/>
 <child filterId="org.eclipse.jdt.ui.PackageExplorer.SyntheticMembersFilter" isEnabled="true"/>
+<child filterId="org.eclipse.m2e.MavenModuleFilter" isEnabled="false"/>
 </xmlDefinedFilters>
 </customFilters>
 </viewState>
@@ -146,9 +146,9 @@
 <alwaysOnActionSet id="org.eclipse.jdt.debug.ui.JDTDebugActionSet"/>
 <alwaysOnActionSet id="org.eclipse.jdt.junit.JUnitActionSet"/>
 <alwaysOnActionSet id="org.eclipse.debug.ui.debugActionSet"/>
-<alwaysOnActionSet id="org.eclipse.cdt.debug.edc.ui.snapshotDebuggingActionSet"/>
-<alwaysOnActionSet id="org.eclipse.cdt.debug.edc.ui.debugEDCActionSet"/>
 <alwaysOnActionSet id="com.google.gdt.eclipse.core.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.egit.ui.navigation"/>
+<alwaysOnActionSet id="org.eclipse.dltk.ruby.debug.ui.ScriptDebugActionSet"/>
 <show_view_action id="org.eclipse.jdt.ui.PackageExplorer"/>
 <show_view_action id="org.eclipse.jdt.ui.TypeHierarchy"/>
 <show_view_action id="org.eclipse.jdt.ui.SourceView"/>
@@ -192,6 +192,7 @@
 <view id="org.eclipse.debug.ui.DebugView"/>
 <view id="org.eclipse.search.ui.views.SearchView"/>
 <view id="com.google.gwt.eclipse.DevModeView"/>
+<view id="org.eclipse.ui.views.ProgressView"/>
 <view id="org.eclipse.jdt.ui.PackageExplorer"/>
 <view id="org.eclipse.ui.views.ResourceNavigator"/>
 <view id="org.eclipse.jdt.ui.TypeHierarchy"/>
@@ -223,7 +224,6 @@
 <info part="org.eclipse.ui.editorss" ratio="0.2252846" ratioLeft="376" ratioRight="1293" relationship="2" relative="left"/>
 <info folder="true" part="bottom" ratio="0.75" ratioLeft="564" ratioRight="188" relationship="4" relative="org.eclipse.ui.editorss">
 <folder appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
@@ -258,6 +258,7 @@
 <page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
 <page content="org.eclipse.search.ui.views.SearchView" label="Search"/>
 <page content="com.google.gwt.eclipse.DevModeView" label="Development Mode"/>
+<page content="org.eclipse.ui.views.ProgressView" label="Progress"/>
 <page content="org.eclipse.team.ui.GenericHistoryView" label="LabelNotFound"/>
 <page content="org.eclipse.pde.runtime.LogView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
@@ -265,6 +266,7 @@
 <part id="1"/>
 <part id="2"/>
 <part id="3"/>
+<part id="4"/>
 </presentation>
 </folder>
 </info>
@@ -356,163 +358,164 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/GoogleCodeJam2011/src/B_SpaceEmergency.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/GoogleCodeJam2011/src/C_PerfectHarmony.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.binaryEditor" path="/GoogleCodeJam2011/C-small_1306058223935.out"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/GoogleCodeJam2011/src/Test.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.binaryEditor" path="/GoogleCodeJam2011/C-small_1306058936161.out"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.binaryEditor" path="/GoogleCodeJam2011/C-small_1306058975814.out"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.binaryEditor" path="/GoogleCodeJam2011/C-small_1306059003488.out"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/GoogleCodeJam/src/A_SwingingWild.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.binaryEditor" path="/GoogleCodeJam/A-small_1338044042006.out"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.binaryEditor" path="/GoogleCodeJam/A-large_1338044364984.out"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.binaryEditor" path="/GoogleCodeJam/A-large_1338044109853.out"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/GoogleCodeJam/src/B_Aerobics.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/lib/src/OtherLib.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/GoogleCodeJam/src/C_MountainView.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.binaryEditor" path="/GoogleCodeJam/C-small_1338047190103.out"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.binaryEditor" path="/GoogleCodeJam/C-small_1338047506075.out"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.binaryEditor" path="/GoogleCodeJam/C-small_1338047555705.out"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/GoogleCodeJam/C-small.in"/>
 </editors>
-<item historyLabel="C_PerfectHarmony.java" index="1">
-<position info="not_deleted" x="1996" y="0"/>
+<item historyLabel="A_SwingingWild.java" index="0">
+<position info="not_deleted" x="1237" y="0"/>
 </item>
-<item historyLabel="C_PerfectHarmony.java" index="1">
-<position info="not_deleted" x="1167" y="0"/>
+<item historyLabel="A_SwingingWild.java" index="0">
+<position info="not_deleted" x="1236" y="0"/>
 </item>
-<item historyLabel="C_PerfectHarmony.java" index="1">
-<position info="not_deleted" x="2321" y="0"/>
+<item historyLabel="A_SwingingWild.java" index="0">
+<position info="not_deleted" x="1804" y="0"/>
 </item>
-<item historyLabel="C-small_1306058223935.out" index="2">
-<position info="not_deleted" x="106" y="0"/>
+<item historyLabel="A-small_1338044042006.out" index="1">
+<position info="not_deleted" x="398" y="0"/>
 </item>
-<item historyLabel="C_PerfectHarmony.java" index="1">
-<position info="not_deleted" x="2008" y="0"/>
+<item historyLabel="A_SwingingWild.java" index="0">
+<position info="not_deleted" x="1804" y="0"/>
 </item>
-<item historyLabel="Test.java" index="3">
-<position info="not_deleted" x="27" y="0"/>
+<item historyLabel="A_SwingingWild.java" index="0">
+<position info="not_deleted" x="319" y="0"/>
 </item>
-<item historyLabel="C_PerfectHarmony.java" index="1">
-<position info="not_deleted" x="204" y="284"/>
+<item historyLabel="A_SwingingWild.java" index="0">
+<position info="not_deleted" x="297" y="0"/>
 </item>
-<item historyLabel="Test.java" index="3">
-<position info="not_deleted" x="27" y="0"/>
+<item historyLabel="A_SwingingWild.java" index="0">
+<position info="not_deleted" x="319" y="0"/>
 </item>
-<item historyLabel="Test.java" index="3">
-<position info="not_deleted" x="401" y="0"/>
+<item historyLabel="A_SwingingWild.java" index="0">
+<position info="not_deleted" x="712" y="0"/>
 </item>
-<item historyLabel="Test.java" index="3">
-<position info="not_deleted" x="437" y="0"/>
+<item historyLabel="A_SwingingWild.java" index="0">
+<position info="not_deleted" x="1613" y="0"/>
 </item>
-<item historyLabel="Test.java" index="3">
-<position info="not_deleted" x="606" y="0"/>
-</item>
-<item historyLabel="Test.java" index="3">
-<position info="not_deleted" x="569" y="0"/>
-</item>
-<item historyLabel="Test.java" index="3">
-<position info="not_deleted" x="606" y="0"/>
-</item>
-<item historyLabel="B_SpaceEmergency.java" index="0">
-<position/>
-</item>
-<item historyLabel="Test.java" index="3">
-<position info="not_deleted" x="606" y="0"/>
-</item>
-<item historyLabel="C_PerfectHarmony.java" index="1">
-<position/>
-</item>
-<item historyLabel="C-small_1306058936161.out" index="4">
-<position info="not_deleted" x="269" y="0"/>
-</item>
-<item historyLabel="Test.java" index="3">
-<position info="not_deleted" x="606" y="0"/>
-</item>
-<item historyLabel="C_PerfectHarmony.java" index="1">
-<position info="not_deleted" x="1270" y="0"/>
-</item>
-<item historyLabel="C-small_1306058975814.out" index="5">
+<item historyLabel="A-large_1338044364984.out" index="2">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="C_PerfectHarmony.java" index="1">
-<position info="not_deleted" x="1979" y="0"/>
+<item historyLabel="A-large_1338044109853.out" index="3">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="C-small_1306059003488.out" index="6">
-<position info="not_deleted" x="81" y="0"/>
+<item historyLabel="A-large_1338044364984.out" index="2">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="C_PerfectHarmony.java" index="1">
-<position info="not_deleted" x="1996" y="0"/>
+<item historyLabel="A_SwingingWild.java" index="0">
+<position info="not_deleted" x="500" y="0"/>
 </item>
-<item historyLabel="B_SpaceEmergency.java" index="0">
-<position info="not_deleted" x="357" y="0"/>
+<item historyLabel="B_Aerobics.java" index="4">
+<position info="not_deleted" x="1827" y="0"/>
 </item>
-<item historyLabel="C_PerfectHarmony.java" index="1">
-<position info="not_deleted" x="1996" y="0"/>
+<item historyLabel="OtherLib.java" index="5">
+<position info="not_deleted" x="1247" y="1206"/>
 </item>
-<item historyLabel="C_PerfectHarmony.java" index="1">
-<position info="not_deleted" x="1295" y="0"/>
+<item historyLabel="B_Aerobics.java" index="4">
+<position info="not_deleted" x="1827" y="0"/>
 </item>
-<item historyLabel="C_PerfectHarmony.java" index="1">
-<position info="not_deleted" x="1326" y="0"/>
+<item historyLabel="B_Aerobics.java" index="4">
+<position info="not_deleted" x="1696" y="0"/>
 </item>
-<item historyLabel="C_PerfectHarmony.java" index="1">
-<position info="not_deleted" x="1775" y="0"/>
+<item historyLabel="B_Aerobics.java" index="4">
+<position info="not_deleted" x="1818" y="0"/>
 </item>
-<item historyLabel="C_PerfectHarmony.java" index="1">
-<position info="not_deleted" x="1451" y="0"/>
+<item historyLabel="B_Aerobics.java" index="4">
+<position info="not_deleted" x="1821" y="0"/>
 </item>
-<item historyLabel="C_PerfectHarmony.java" index="1">
-<position info="not_deleted" x="1648" y="0"/>
+<item historyLabel="B_Aerobics.java" index="4">
+<position info="not_deleted" x="1783" y="0"/>
 </item>
-<item historyLabel="B_SpaceEmergency.java" index="0">
-<position info="not_deleted" x="357" y="0"/>
+<item historyLabel="C_MountainView.java" index="6">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="B_SpaceEmergency.java" index="0">
-<position info="not_deleted" x="487" y="0"/>
+<item historyLabel="C_MountainView.java" index="6">
+<position info="not_deleted" x="2225" y="0"/>
 </item>
-<item historyLabel="B_SpaceEmergency.java" index="0">
+<item historyLabel="C_MountainView.java" index="6">
+<position info="not_deleted" x="2752" y="0"/>
+</item>
+<item historyLabel="C_MountainView.java" index="6">
+<position info="not_deleted" x="1476" y="0"/>
+</item>
+<item historyLabel="C_MountainView.java" index="6">
+<position info="not_deleted" x="1488" y="0"/>
+</item>
+<item historyLabel="C_MountainView.java" index="6">
+<position info="not_deleted" x="2950" y="0"/>
+</item>
+<item historyLabel="C_MountainView.java" index="6">
+<position info="not_deleted" x="1883" y="0"/>
+</item>
+<item historyLabel="C_MountainView.java" index="6">
+<position info="not_deleted" x="1858" y="0"/>
+</item>
+<item historyLabel="C_MountainView.java" index="6">
+<position info="not_deleted" x="1608" y="0"/>
+</item>
+<item historyLabel="C_MountainView.java" index="6">
 <position/>
 </item>
-<item historyLabel="B_SpaceEmergency.java" index="0">
-<position info="not_deleted" x="835" y="0"/>
+<item historyLabel="C_MountainView.java" index="6">
+<position info="not_deleted" x="1852" y="0"/>
 </item>
-<item historyLabel="B_SpaceEmergency.java" index="0">
-<position info="not_deleted" x="621" y="0"/>
+<item historyLabel="C_MountainView.java" index="6">
+<position info="not_deleted" x="1773" y="0"/>
 </item>
-<item historyLabel="B_SpaceEmergency.java" index="0">
-<position info="not_deleted" x="661" y="0"/>
+<item historyLabel="C_MountainView.java" index="6">
+<position info="not_deleted" x="1852" y="0"/>
 </item>
-<item historyLabel="B_SpaceEmergency.java" index="0">
-<position info="not_deleted" x="1096" y="0"/>
+<item historyLabel="C_MountainView.java" index="6">
+<position info="not_deleted" x="2311" y="0"/>
 </item>
-<item historyLabel="B_SpaceEmergency.java" index="0">
-<position info="not_deleted" x="1225" y="0"/>
+<item historyLabel="C_MountainView.java" index="6">
+<position info="not_deleted" x="1538" y="37"/>
 </item>
-<item historyLabel="B_SpaceEmergency.java" index="0">
-<position info="not_deleted" x="2613" y="0"/>
-</item>
-<item historyLabel="B_SpaceEmergency.java" index="0">
+<item historyLabel="C_MountainView.java" index="6">
 <position/>
 </item>
-<item historyLabel="B_SpaceEmergency.java" index="0">
-<position info="not_deleted" x="2375" y="0"/>
+<item historyLabel="C_MountainView.java" index="6">
+<position info="not_deleted" x="2976" y="0"/>
 </item>
-<item historyLabel="B_SpaceEmergency.java" index="0">
-<position info="not_deleted" x="1356" y="0"/>
+<item historyLabel="C-small_1338047190103.out" index="7">
+<position info="not_deleted" x="291" y="0"/>
 </item>
-<item historyLabel="B_SpaceEmergency.java" index="0">
-<position/>
+<item historyLabel="C_MountainView.java" index="6">
+<position info="not_deleted" x="3291" y="0"/>
 </item>
-<item historyLabel="B_SpaceEmergency.java" index="0">
-<position/>
+<item historyLabel="C_MountainView.java" index="6">
+<position info="not_deleted" x="2606" y="0"/>
 </item>
-<item historyLabel="B_SpaceEmergency.java" index="0">
-<position info="not_deleted" x="2231" y="0"/>
+<item historyLabel="C_MountainView.java" index="6">
+<position info="not_deleted" x="2567" y="0"/>
 </item>
-<item historyLabel="B_SpaceEmergency.java" index="0">
-<position info="not_deleted" x="2009" y="0"/>
+<item historyLabel="C_MountainView.java" index="6">
+<position info="not_deleted" x="2567" y="0"/>
 </item>
-<item historyLabel="B_SpaceEmergency.java" index="0">
-<position info="not_deleted" x="1575" y="0"/>
+<item historyLabel="C-small_1338047506075.out" index="8">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="B_SpaceEmergency.java" index="0">
-<position info="not_deleted" x="1720" y="0"/>
+<item historyLabel="C_MountainView.java" index="6">
+<position info="not_deleted" x="2548" y="0"/>
 </item>
-<item historyLabel="B_SpaceEmergency.java" index="0">
-<position info="not_deleted" x="2001" y="0"/>
+<item historyLabel="C-small_1338047555705.out" index="9">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item active="true" historyLabel="B_SpaceEmergency.java" index="0">
-<position info="not_deleted" x="557" y="38"/>
+<item historyLabel="C_MountainView.java" index="6">
+<position info="not_deleted" x="2952" y="0"/>
+</item>
+<item historyLabel="C-small.in" index="10">
+<position info="not_deleted" x="485" y="0"/>
+</item>
+<item active="true" historyLabel="C_MountainView.java" index="6">
+<position info="not_deleted" x="2376" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -520,7 +523,11 @@
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
+<trimArea IMemento.internal.id="16384">
+<trimItem IMemento.internal.id="left"/>
+</trimArea>
 <trimArea IMemento.internal.id="128">
+<trimItem IMemento.internal.id="org.eclipse.mylyn.tasks.ui.trim.container"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
 </trimArea>
 <trimArea IMemento.internal.id="1024">
@@ -528,54 +535,46 @@
 <trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
 <trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@be248a"/>
 </trimArea>
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.binaryEditor" name="C-small_1306059003488.out" tooltip="GoogleCodeJam2011/C-small_1306059003488.out">
-<persistable path="/GoogleCodeJam2011/C-small_1306059003488.out"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="C-small.in" tooltip="GoogleCodeJam/C-small.in">
+<persistable path="/GoogleCodeJam/C-small.in"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.binaryEditor" name="C-small_1306058975814.out" tooltip="GoogleCodeJam2011/C-small_1306058975814.out">
-<persistable path="/GoogleCodeJam2011/C-small_1306058975814.out"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.binaryEditor" name="C-small_1338047555705.out" tooltip="GoogleCodeJam/C-small_1338047555705.out">
+<persistable path="/GoogleCodeJam/C-small_1338047555705.out"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.binaryEditor" name="C-small_1306058936161.out" tooltip="GoogleCodeJam2011/C-small_1306058936161.out">
-<persistable path="/GoogleCodeJam2011/C-small_1306058936161.out"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.binaryEditor" name="C-small_1338047506075.out" tooltip="GoogleCodeJam/C-small_1338047506075.out">
+<persistable path="/GoogleCodeJam/C-small_1338047506075.out"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Test.java" tooltip="GoogleCodeJam2011/src/Test.java">
-<persistable path="/GoogleCodeJam2011/src/Test.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.binaryEditor" name="C-small_1338047190103.out" tooltip="GoogleCodeJam/C-small_1338047190103.out">
+<persistable path="/GoogleCodeJam/C-small_1338047190103.out"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.binaryEditor" name="C-small_1306058223935.out" tooltip="GoogleCodeJam2011/C-small_1306058223935.out">
-<persistable path="/GoogleCodeJam2011/C-small_1306058223935.out"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="C_MountainView.java" tooltip="GoogleCodeJam/src/C_MountainView.java">
+<persistable path="/GoogleCodeJam/src/C_MountainView.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="C_PerfectHarmony.java" tooltip="GoogleCodeJam2011/src/C_PerfectHarmony.java">
-<persistable path="/GoogleCodeJam2011/src/C_PerfectHarmony.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="OtherLib.java" tooltip="lib/src/OtherLib.java">
+<persistable path="/lib/src/OtherLib.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="B_SpaceEmergency.java" tooltip="GoogleCodeJam2011/src/B_SpaceEmergency.java">
-<persistable path="/GoogleCodeJam2011/src/B_SpaceEmergency.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="B_Aerobics.java" tooltip="GoogleCodeJam/src/B_Aerobics.java">
+<persistable path="/GoogleCodeJam/src/B_Aerobics.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.binaryEditor" name="A-large_1306056892751.out" tooltip="GoogleCodeJam2011/A-large_1306056892751.out">
-<persistable path="/GoogleCodeJam2011/A-large_1306056892751.out"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.binaryEditor" name="A-large_1338044109853.out" tooltip="GoogleCodeJam/A-large_1338044109853.out">
+<persistable path="/GoogleCodeJam/A-large_1338044109853.out"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.binaryEditor" name="A-small_1306056838505.out" tooltip="GoogleCodeJam2011/A-small_1306056838505.out">
-<persistable path="/GoogleCodeJam2011/A-small_1306056838505.out"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.binaryEditor" name="A-large_1338044364984.out" tooltip="GoogleCodeJam/A-large_1338044364984.out">
+<persistable path="/GoogleCodeJam/A-large_1338044364984.out"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.binaryEditor" name="A-small_1306056809830.out" tooltip="GoogleCodeJam2011/A-small_1306056809830.out">
-<persistable path="/GoogleCodeJam2011/A-small_1306056809830.out"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.binaryEditor" name="A-small_1338044042006.out" tooltip="GoogleCodeJam/A-small_1338044042006.out">
+<persistable path="/GoogleCodeJam/A-small_1338044042006.out"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="A-small.in" tooltip="GoogleCodeJam2011/A-small.in">
-<persistable path="/GoogleCodeJam2011/A-small.in"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="A_SwingingWild.java" tooltip="GoogleCodeJam/src/A_SwingingWild.java">
+<persistable path="/GoogleCodeJam/src/A_SwingingWild.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.binaryEditor" name="A-small_1306056341775.out" tooltip="GoogleCodeJam2011/A-small_1306056341775.out">
-<persistable path="/GoogleCodeJam2011/A-small_1306056341775.out"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="A_SquareTiles.java" tooltip="GoogleCodeJam2011/src/A_SquareTiles.java">
-<persistable path="/GoogleCodeJam2011/src/A_SquareTiles.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="EmbassyQueue.java" tooltip="Yandex2011/src/EmbassyQueue.java">
-<persistable path="/Yandex2011/src/EmbassyQueue.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PetyAndTree.java" tooltip="Yandex2011/src/PetyAndTree.java">
-<persistable path="/Yandex2011/src/PetyAndTree.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="HeavyBooks.java" tooltip="TopCoder/src/HeavyBooks.java">
+<persistable path="/TopCoder/src/HeavyBooks.java"/>
 </file>
 </mruList>
 </workbench>

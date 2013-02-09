@@ -1,0 +1,14 @@
+public class EllysJuice {
+	public String[] getWinners(String[] players) {
+		int N = players.length;
+		double[] drank = new double[N];
+		for (int i = 0; i < N; i++) {
+			if (i < 2)
+				drank[i] = 0.5;
+			else
+				drank[i] = drank[i - 2] / 2;
+		}
+		
+		
+	}
+}
