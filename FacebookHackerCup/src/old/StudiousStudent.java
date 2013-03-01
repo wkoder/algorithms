@@ -1,3 +1,4 @@
+package old;
 import java.util.*;
 
 public class StudiousStudent {
