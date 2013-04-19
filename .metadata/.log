@@ -8335,3 +8335,75 @@ Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp
 
 !ENTRY org.eclipse.ui 4 4 2013-02-04 12:03:26.522
 !MESSAGE Unable to find Action Set: com.google.gdt.eclipse.core.actionSet
+!SESSION 2013-02-09 14:10:25.071 -----------------------------------------------
+eclipse.buildId=M20120914-1800
+java.version=1.7.0_09-icedtea
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -data /home/wk/programming/algorithms -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY at.bestsolution.efxclipse.tooling.css.jfx 4 0 2013-02-09 14:10:27.260
+!MESSAGE [SCR] Component definition XMLs not found in bundle at.bestsolution.efxclipse.tooling.css.jfx. The component header value is OSGI-INF/component.xml
+
+!ENTRY at.bestsolution.efxclipse.tooling.css.jfx 4 0 2013-02-09 14:10:27.260
+!MESSAGE [SCR] Component definition XMLs not found in bundle at.bestsolution.efxclipse.tooling.css.jfx. The component header value is OSGI-INF/component.xml
+
+!ENTRY org.eclipse.ui 4 4 2013-02-09 14:10:38.837
+!MESSAGE Unable to find Action Set: com.google.gdt.eclipse.core.actionSet
+
+!ENTRY org.eclipse.jface 2 0 2013-02-09 14:36:57.531
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-02-09 14:36:57.531
+!MESSAGE A conflict occurred for CTRL+D:
+Binding(CTRL+D,
+	ParameterizedCommand(Command(org.eclipse.debug.ui.commands.eof,EOF,
+		Send end of file,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.MakeHandlersGo@330689d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.debug.ui.console,,,system)
+Binding(CTRL+D,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.delete.line,Delete Line,
+		Delete a line of text,
+		Category(org.eclipse.ui.category.textEditor,Text Editing,Text Editing Commands,true),
+		org.eclipse.ui.internal.MakeHandlersGo@5f241d0d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+!SESSION 2013-02-10 10:56:13.701 -----------------------------------------------
+eclipse.buildId=M20120914-1800
+java.version=1.7.0_09-icedtea
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY at.bestsolution.efxclipse.tooling.css.jfx 4 0 2013-02-10 10:56:16.153
+!MESSAGE [SCR] Component definition XMLs not found in bundle at.bestsolution.efxclipse.tooling.css.jfx. The component header value is OSGI-INF/component.xml
+
+!ENTRY at.bestsolution.efxclipse.tooling.css.jfx 4 0 2013-02-10 10:56:16.154
+!MESSAGE [SCR] Component definition XMLs not found in bundle at.bestsolution.efxclipse.tooling.css.jfx. The component header value is OSGI-INF/component.xml
+
+!ENTRY org.eclipse.core.resources 2 10035 2013-02-10 12:12:48.972
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.ui 4 4 2013-02-10 12:12:59.683
+!MESSAGE Unable to find Action Set: com.google.gdt.eclipse.core.actionSet
+!SESSION 2013-04-18 21:26:39.982 -----------------------------------------------
+eclipse.buildId=M20120914-1800
+java.version=1.7.0_17
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -data /home/wk/programming/algorithms -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY at.bestsolution.efxclipse.tooling.css.jfx 4 0 2013-04-18 21:26:40.942
+!MESSAGE [SCR] Component definition XMLs not found in bundle at.bestsolution.efxclipse.tooling.css.jfx. The component header value is OSGI-INF/component.xml
+
+!ENTRY at.bestsolution.efxclipse.tooling.css.jfx 4 0 2013-04-18 21:26:40.943
+!MESSAGE [SCR] Component definition XMLs not found in bundle at.bestsolution.efxclipse.tooling.css.jfx. The component header value is OSGI-INF/component.xml
+
+!ENTRY org.eclipse.ui 4 4 2013-04-18 21:26:47.335
+!MESSAGE Unable to find Action Set: com.google.gdt.eclipse.core.actionSet

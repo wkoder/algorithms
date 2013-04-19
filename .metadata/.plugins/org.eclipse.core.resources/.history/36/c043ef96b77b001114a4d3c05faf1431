@@ -1,6 +1,0 @@
-public class EllysLights {
-	public int getMinimum(String initial, String[] switches) {
-		int S = switches.length;
-		int[] sw = new int[S];
-	}
-}

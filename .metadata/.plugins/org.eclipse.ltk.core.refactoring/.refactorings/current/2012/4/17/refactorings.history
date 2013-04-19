@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Move 4 packages to &apos;TopCoder/src&apos;&#x0A;- Original project: &apos;current&apos;&#x0A;- Destination element: &apos;TopCoder/src&apos;&#x0A;- Original elements:&#x0A;     current/src/topcoder.tco12.qual1&#x0A;     current/src/topcoder.unknown&#x0A;     current/src/topcoder.srm538&#x0A;     current/src/topcoder.tco12.qual2&#x0A;- Update references to refactored element" description="Move packages" destination="=TopCoder/src" element1="/src&lt;topcoder.tco12.qual1" element2="/src&lt;topcoder.unknown" element3="/src&lt;topcoder.srm538" element4="/src&lt;topcoder.tco12.qual2" flags="589830" fragments="4" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1335299084077" version="1.0"/>
-</session>

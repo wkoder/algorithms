@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Move 2 elements to &apos;current/src/topcoder&apos;&#x0A;- Original project: &apos;current&apos;&#x0A;- Destination element: &apos;current/src/topcoder&apos;&#x0A;- Original elements:&#x0A;     TwoRegisters.java&#x0A;     EqualizeStrings.java&#x0A;- Update references to refactored element" description="Move compilation units" destination="/src&lt;topcoder" element1="/src&lt;{TwoRegisters.java" element2="/src&lt;{EqualizeStrings.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1279382758278" units="2" version="1.0"/>
-</session>

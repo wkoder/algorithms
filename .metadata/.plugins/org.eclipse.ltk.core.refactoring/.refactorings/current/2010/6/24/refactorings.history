@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename local variable &apos;p&apos; in &apos;Main.solve()&apos; to &apos;sieve&apos;&#x0A;- Original project: &apos;current&apos;&#x0A;- Original element: &apos;Main.solve().p&apos;&#x0A;- Renamed element: &apos;p&apos;&#x0A;- Update references to refactored element" description="Rename local variable &apos;p&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;{Main.java[Main~solve@p!280!310!290!290!\[Z" name="sieve" references="true" stamp="1276183794061" version="1.0"/>
-</session>

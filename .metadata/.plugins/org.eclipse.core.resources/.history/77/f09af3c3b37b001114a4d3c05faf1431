@@ -1,9 +1,0 @@
-public class EllysFractions {
-	public long getCount(int N) {
-		long count = 0;
-		for (int i = 2; i <= N; i++) {
-			for (int j = 2; j*j <= i; j++)
-		}
-		return count;
-	}
-}

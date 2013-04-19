@@ -1,19 +1,18 @@
-import java.io.BufferedOutputStream;
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.io.PrintWriter;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.StringTokenizer;
+package unknown;
+import java.io.*;
+import java.util.*;
+import java.math.*;
+import java.text.*;
 
-public class Main {
-	
-	static final int MAX = 10000;
+public class Horseshoe {
 	
 	public static void solve() {
-		
+		StringTokenizer tok = new StringTokenizer(read());
+		Set<Integer> set = new HashSet<Integer>();
+		while (tok.hasMoreTokens()) {
+			set.add(Integer.parseInt(tok.nextToken()));
+		}
+		out.println(4 - set.size());
 	}
 	
 	public static String read() {
