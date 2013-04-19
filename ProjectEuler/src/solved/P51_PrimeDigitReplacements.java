@@ -1,10 +1,8 @@
 package solved;
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
-import java.util.Set;
 
 
 /**
@@ -30,6 +28,7 @@ public class P51_PrimeDigitReplacements {
 		for (int i = 4; i < MAX; i += 2)
 			isCompo[i] = true;
 		
+		@SuppressWarnings("unchecked")
 		Map<Integer, List<Integer>>[] families = new Map[1 << MAXD];
 		
 //		search:
