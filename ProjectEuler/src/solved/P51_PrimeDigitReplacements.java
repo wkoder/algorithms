@@ -31,7 +31,6 @@ public class P51_PrimeDigitReplacements {
 		@SuppressWarnings("unchecked")
 		Map<Integer, List<Integer>>[] families = new Map[1 << MAXD];
 		
-//		search:
 		for (int k = 3, D = 0; k < MAX; k += 2) {
 			if (k >= dmin[D]) {
 				D++;
@@ -61,9 +60,7 @@ public class P51_PrimeDigitReplacements {
 					}
 					family.add(k);
 					if (family.size() >= 8) {
-//						System.out.println(family.get(0));
 						System.out.println(family);
-//						break search;
 					}
 				}
 				
