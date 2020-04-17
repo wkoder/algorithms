@@ -2,44 +2,44 @@ import java.io.*;
 import java.util.StringTokenizer;
 
 public class StringTokenizerTemplate {
-    private static void solve() {
-    }
+  private static BufferedReader in;
+  private static StringTokenizer stringTokenizer;
+  private static PrintWriter out;
 
-    private static long readLong() {
-        return Long.parseLong(read());
-    }
+  private static void solve() {
+  }
 
-    private static int readInt() {
-        return Integer.parseInt(read());
-    }
+  private static long readLong() {
+    return Long.parseLong(read());
+  }
 
-    private static String read() {
-        while (stringTokenizer == null || !stringTokenizer.hasMoreTokens()) {
-            String line = readLine();
-            if (line == null) {
-                return null;
-            }
-            stringTokenizer = new StringTokenizer(line);
-        }
-        return stringTokenizer.nextToken();
-    }
+  private static int readInt() {
+    return Integer.parseInt(read());
+  }
 
-    private static String readLine() {
-        try {
-            return in.readLine();
-        } catch (IOException e) {
-            return null;
-        }
+  private static String read() {
+    while (stringTokenizer == null || !stringTokenizer.hasMoreTokens()) {
+      String line = readLine();
+      if (line == null) {
+        return null;
+      }
+      stringTokenizer = new StringTokenizer(line);
     }
+    return stringTokenizer.nextToken();
+  }
 
-    public static void main(String[] args) throws IOException {
-        in = new BufferedReader(new InputStreamReader(System.in));
-        out = new PrintWriter(new BufferedOutputStream(System.out));
-        solve();
-        out.flush();
+  private static String readLine() {
+    try {
+      return in.readLine();
+    } catch (IOException e) {
+      return null;
     }
+  }
 
-    private static BufferedReader in;
-    private static StringTokenizer stringTokenizer;
-    private static PrintWriter out;
+  public static void main(String[] args) throws IOException {
+    in = new BufferedReader(new InputStreamReader(System.in));
+    out = new PrintWriter(new BufferedOutputStream(System.out));
+    solve();
+    out.flush();
+  }
 }

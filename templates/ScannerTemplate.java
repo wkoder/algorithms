@@ -6,13 +6,16 @@ import java.util.Scanner;
 
 public class ScannerTemplate {
 
-    static void solve() {
-    }
+  static Scanner in;
+  static PrintWriter out;
 
-    public static void main(String[] args) throws IOException {
-        in = new Scanner(new InputStreamReader(System.in));
-        out = new PrintWriter(new BufferedOutputStream(System.out));
-        solve(); out.flush();
-    }
-    static Scanner in; static PrintWriter out;
+  static void solve() {
+  }
+
+  public static void main(String[] args) throws IOException {
+    in = new Scanner(new InputStreamReader(System.in));
+    out = new PrintWriter(new BufferedOutputStream(System.out));
+    solve();
+    out.flush();
+  }
 }
