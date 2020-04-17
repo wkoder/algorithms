@@ -84,6 +84,7 @@
       <textMaps />
     </LinkMapSettings>
   </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="11" project-jdk-type="JavaSDK" />
   <component name="ScalaSbtSettings">
     <option name="customVMPath" />
   </component>
