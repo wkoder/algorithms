@@ -4,21 +4,27 @@ import java.io.InputStream;
 import java.io.PrintWriter;
 import java.util.InputMismatchException;
 
-public class InputReaderTemplate {
-  private static InputReader in;
-  private static PrintWriter out;
+public class InputReaderTemplate implements Runnable {
 
   private static void solve() {
   }
 
-  public static void main(String[] args) {
-    in = new InputReader(System.in);
-    out = new PrintWriter(new BufferedOutputStream(System.out));
+  /** Template starts: */
+  @Override
+  public void run() {
     solve();
     out.flush();
+    System.exit(0);
   }
 
-  static class InputReader {
+  private final static InputReader in = new InputReader(System.in);
+  private final static PrintWriter out = new PrintWriter(new BufferedOutputStream(System.out));
+
+  public static void main(String[] args) {
+    new Thread(null, new InputReaderTemplate(), "Main", 1 << 26).start();
+  }
+
+  private static class InputReader {
     private final InputStream stream;
     private final byte[] buf = new byte[1024];
     private int curChar;
@@ -28,7 +34,7 @@ public class InputReaderTemplate {
       this.stream = stream;
     }
 
-    private int read() {
+    byte read() {
       if (numChars == -1)
         throw new InputMismatchException();
       if (curChar >= numChars) {
@@ -44,8 +50,8 @@ public class InputReaderTemplate {
       return buf[curChar++];
     }
 
-    public int readInt() {
-      int c = read();
+    int readInt() {
+      byte c = read();
       while (isSpaceChar(c))
         c = read();
       int sgn = 1;
@@ -64,8 +70,8 @@ public class InputReaderTemplate {
       return res * sgn;
     }
 
-    public long readLong() {
-      int c = read();
+    long readLong() {
+      byte c = read();
       while (isSpaceChar(c))
         c = read();
       int sgn = 1;
@@ -84,8 +90,8 @@ public class InputReaderTemplate {
       return res * sgn;
     }
 
-    public String readString() {
-      int c = read();
+    String readString() {
+      byte c = read();
       while (isSpaceChar(c))
         c = read();
       StringBuilder res = new StringBuilder();

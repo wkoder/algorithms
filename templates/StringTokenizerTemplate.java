@@ -1,12 +1,25 @@
 import java.io.*;
 import java.util.StringTokenizer;
 
-public class StringTokenizerTemplate {
-  private static BufferedReader in;
-  private static StringTokenizer stringTokenizer;
-  private static PrintWriter out;
+public class StringTokenizerTemplate implements Runnable {
 
   private static void solve() {
+  }
+
+  /** Template starts: */
+  @Override
+  public void run() {
+    solve();
+    out.flush();
+    System.exit(0);
+  }
+
+  private final static BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
+  private static StringTokenizer stringTokenizer;
+  private final static PrintWriter out = new PrintWriter(new BufferedOutputStream(System.out));
+
+  public static void main(String[] args) {
+    new Thread(null, new InputReaderTemplate(), "Main", 1 << 26).start();
   }
 
   private static long readLong() {
@@ -34,12 +47,5 @@ public class StringTokenizerTemplate {
     } catch (IOException e) {
       return null;
     }
-  }
-
-  public static void main(String[] args) throws IOException {
-    in = new BufferedReader(new InputStreamReader(System.in));
-    out = new PrintWriter(new BufferedOutputStream(System.out));
-    solve();
-    out.flush();
   }
 }
