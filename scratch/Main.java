@@ -34,9 +34,10 @@ public class Main implements Runnable {
       this.stream = stream;
     }
 
-    byte read() {
-      if (numChars == -1)
-        throw new InputMismatchException();
+    private byte read() {
+      if (numChars == -1) {
+        throw new InputMismatchException("EOF has been reached");
+      }
       if (curChar >= numChars) {
         curChar = 0;
         try {
@@ -52,8 +53,13 @@ public class Main implements Runnable {
 
     int readInt() {
       byte c = read();
-      while (isSpaceChar(c))
+      while (isWhitespace(c)) {
         c = read();
+      }
+      if (isEOF(c)) {
+        throw new InputMismatchException("EOF has been reached");
+      }
+
       int sgn = 1;
       if (c == '-') {
         sgn = -1;
@@ -61,19 +67,32 @@ public class Main implements Runnable {
       }
       int res = 0;
       do {
-        if (c < '0' || c > '9')
+        if (c < '0' || c > '9') {
           throw new InputMismatchException();
+        }
+        if (res > Integer.MAX_VALUE / 10) {
+          throw new InputMismatchException("Input is not an integer");
+        }
         res *= 10;
-        res += c - '0';
+        int d = c - '0';
+        if (res > Integer.MAX_VALUE - d) {
+          throw new InputMismatchException("Input is not an integer");
+        }
+        res += d;
         c = read();
-      } while (!isSpaceChar(c));
+      } while (!isWhitespaceOrEOF(c));
       return res * sgn;
     }
 
     long readLong() {
       byte c = read();
-      while (isSpaceChar(c))
+      while (isWhitespace(c)) {
         c = read();
+      }
+      if (isEOF(c)) {
+        throw new InputMismatchException("EOF has been reached");
+      }
+
       int sgn = 1;
       if (c == '-') {
         sgn = -1;
@@ -81,30 +100,52 @@ public class Main implements Runnable {
       }
       long res = 0;
       do {
-        if (c < '0' || c > '9')
+        if (c < '0' || c > '9') {
           throw new InputMismatchException();
+        }
+        if (res > Long.MAX_VALUE / 10) {
+          throw new InputMismatchException("Input is not a long integer");
+        }
         res *= 10;
-        res += c - '0';
+        int d = c - '0';
+        if (res > Long.MAX_VALUE - d) {
+          throw new InputMismatchException("Input is not a long integer");
+        }
+        res += d;
         c = read();
-      } while (!isSpaceChar(c));
+      } while (!isWhitespaceOrEOF(c));
       return res * sgn;
     }
 
     String readString() {
       byte c = read();
-      while (isSpaceChar(c))
+      while (isWhitespace(c)) {
         c = read();
+      }
+      if (isEOF(c)) {
+        return null;
+      }
+
       StringBuilder res = new StringBuilder();
       do {
-        if (Character.isValidCodePoint(c))
+        if (Character.isValidCodePoint(c)) {
           res.appendCodePoint(c);
+        }
         c = read();
-      } while (!isSpaceChar(c));
+      } while (!isWhitespaceOrEOF(c));
       return res.toString();
     }
 
-    public boolean isSpaceChar(int c) {
-      return c == ' ' || c == '\n' || c == '\r' || c == '\t' || c == -1;
+    private boolean isWhitespace(byte c) {
+      return c == ' ' || c == '\n' || c == '\r' || c == '\t';
+    }
+
+    private boolean isEOF(byte c) {
+      return c == -1;
+    }
+
+    private boolean isWhitespaceOrEOF(byte c) {
+      return isWhitespace(c) || isEOF(c);
     }
   }
 }
