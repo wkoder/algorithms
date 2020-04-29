@@ -7,8 +7,10 @@
       <sourceFolder url="file://$MODULE_DIR$/lib_geom" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/scratch" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/templates" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/tuenti" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="gson-2.8.2" level="project" />
   </component>
 </module>
