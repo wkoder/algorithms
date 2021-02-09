@@ -5,8 +5,8 @@ import java.io.PrintWriter;
 import java.util.InputMismatchException;
 
 public class Main implements Runnable {
+  private void solve() {
 
-  private static void solve() {
   }
 
   /** Template starts: */
@@ -115,6 +115,10 @@ public class Main implements Runnable {
         c = read();
       } while (!isWhitespaceOrEOF(c));
       return res * sgn;
+    }
+
+    double readDouble() {
+      return Double.parseDouble(readString());
     }
 
     String readString() {

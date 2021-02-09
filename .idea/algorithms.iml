@@ -8,6 +8,8 @@
       <sourceFolder url="file://$MODULE_DIR$/scratch" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/templates" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/tuenti" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/icpcmasters2021" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/io" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

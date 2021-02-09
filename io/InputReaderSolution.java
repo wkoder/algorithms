@@ -4,9 +4,15 @@ import java.io.InputStream;
 import java.io.PrintWriter;
 import java.util.InputMismatchException;
 
-public class InputReaderTemplate implements Runnable {
+public class InputReaderSolution implements Runnable {
 
   private static void solve() {
+    long sum = 0;
+    int n = in.readInt();
+    while (n-- > 0) {
+      sum += in.readInt();
+    }
+    out.println(sum);
   }
 
   /** Template starts: */

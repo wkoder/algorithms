@@ -1,9 +1,15 @@
 import java.io.*;
 import java.util.StringTokenizer;
 
-public class StringTokenizerTemplate implements Runnable {
+public class StringTokenizerSolution implements Runnable {
 
   private static void solve() {
+    long sum = 0;
+    int n = readInt();
+    while (n-- > 0) {
+      sum += readInt();
+    }
+    out.println(sum);
   }
 
   /** Template starts: */
