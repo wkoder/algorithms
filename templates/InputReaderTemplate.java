@@ -21,7 +21,7 @@ public class InputReaderTemplate implements Runnable {
   private final static PrintWriter out = new PrintWriter(new BufferedOutputStream(System.out));
 
   public static void main(String[] args) {
-    new Thread(null, new InputReaderSolution(), "Main", 1 << 26).start();
+    new Thread(null, new InputReaderTemplate(), "Main", 1 << 26).start();
   }
 
   private static class InputReader {

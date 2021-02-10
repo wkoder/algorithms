@@ -15,7 +15,7 @@ measure_solution() {
 
 measure_file() {
   input_file=$1
-  declare -a solutions=("InputReaderSolution" "StringTokenizerSolution" "ScannerSolution")
+  declare -a solutions=("InputReaderSolution" "StringTokenizerSolution" "BufferedScannerSolution" "ScannerSolution")
   echo "Measuring solutions with file $input_file:"
   all_runtimes=
   for solution in "${solutions[@]}"; do

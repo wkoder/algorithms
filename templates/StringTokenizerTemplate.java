@@ -19,7 +19,7 @@ public class StringTokenizerTemplate implements Runnable {
   private final static PrintWriter out = new PrintWriter(new BufferedOutputStream(System.out));
 
   public static void main(String[] args) {
-    new Thread(null, new StringTokenizerSolution(), "Main", 1 << 26).start();
+    new Thread(null, new StringTokenizerTemplate(), "Main", 1 << 26).start();
   }
 
   private static long readLong() {
