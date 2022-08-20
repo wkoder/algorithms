@@ -7,12 +7,18 @@
       <sourceFolder url="file://$MODULE_DIR$/lib_geom" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/scratch" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/templates" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/tuenti" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/icpcmasters2021" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/io" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/problems/la_cueva_del_diablo" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/problems/muchos_engranajes" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/problems/pocos_engranajes" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/problems/uploaded/ablando_sin_h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/problems/uploaded/banco_de_sinaloa" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/problems/uploaded/colores_navidenos" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/problems/uploaded/dando_regalos" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/problems/uploaded/diosa_quinceanera" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/problems/uploaded/el_maraton" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="gson-2.8.2" level="project" />
   </component>
 </module>

@@ -3,12 +3,10 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.PrintWriter;
 import java.util.*;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
-public class Main implements Runnable {
-  private static void solve() {
-    
+public class Solution implements Runnable {
+  private void solve() {
+
   }
 
   /** Template starts: */
@@ -23,7 +21,7 @@ public class Main implements Runnable {
   private final static PrintWriter out = new PrintWriter(new BufferedOutputStream(System.out));
 
   public static void main(String[] args) {
-    new Thread(null, new Main(), "Main", 1 << 26).start();
+    new Thread(null, new Solution(), "Main", 1 << 26).start();
   }
 
   private static class InputReader {
@@ -117,6 +115,10 @@ public class Main implements Runnable {
         c = read();
       } while (!isWhitespaceOrEOF(c));
       return res * sgn;
+    }
+
+    double readDouble() {
+      return Double.parseDouble(readString());
     }
 
     String readString() {

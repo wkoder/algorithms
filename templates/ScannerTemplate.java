@@ -1,6 +1,7 @@
 import java.io.BufferedOutputStream;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class ScannerTemplate implements Runnable {
