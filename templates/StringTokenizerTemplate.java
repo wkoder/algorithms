@@ -1,25 +1,19 @@
 import java.io.*;
 import java.util.StringTokenizer;
 
-public class StringTokenizerTemplate implements Runnable {
+public class StringTokenizerTemplate {
 
   private static void solve() {
   }
 
   /** Template starts: */
-  @Override
-  public void run() {
-    solve();
-    out.flush();
-    System.exit(0);
-  }
-
   private final static BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
   private static StringTokenizer stringTokenizer;
   private final static PrintWriter out = new PrintWriter(new BufferedOutputStream(System.out));
 
   public static void main(String[] args) {
-    new Thread(null, new StringTokenizerTemplate(), "Main", 1 << 26).start();
+      solve();
+      out.flush();
   }
 
   private static long readLong() {

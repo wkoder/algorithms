@@ -17,6 +17,7 @@
       <sourceFolder url="file://$MODULE_DIR$/problems/uploaded/dando_regalos" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/problems/uploaded/diosa_quinceanera" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/problems/uploaded/el_maraton" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AdventOfCode" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
